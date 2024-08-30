@@ -41,13 +41,13 @@ CLEANMODE_DELETE_MINS = int(
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "300")
+    getenv("DURATION_LIMIT", "9999")
 )  # Remember to give value in Minutes
 
 
 EXTRA_PLUGINS = getenv(
     "EXTRA_PLUGINS",
-    "True",
+    "False",
 )
 
 # Fill True if you want to load extra plugins
@@ -213,37 +213,37 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg",
+    "https://telegra.ph/file/4b8409a05c3f6a7040fb0.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg",
+    "https://telegra.ph/file/4b8409a05c3f6a7040fb0.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://telegra.ph/file/f4edfbd83ec3150284aae.jpg",
+    "https://telegra.ph/file/4b8409a05c3f6a7040fb0.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://telegra.ph/file/de1db74efac1770b1e8e9.jpg",
+    "https://telegra.ph/file/4b8409a05c3f6a7040fb0.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://telegra.ph/file/4dd9e2c231eaf7c290404.jpg",
+    "https://telegra.ph/file/4b8409a05c3f6a7040fb0.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://telegra.ph/file/8234d704952738ebcda7f.jpg",
+    "https://telegra.ph/file/4b8409a05c3f6a7040fb0.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://telegra.ph/file/8d02ff3bde400e465219a.jpg",
+    "https://telegra.ph/file/4b8409a05c3f6a7040fb0.jpg",
 )
 
 STREAM_IMG_URL = getenv(
